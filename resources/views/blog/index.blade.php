@@ -28,7 +28,7 @@
 @endif
 
 @foreach ($posts as $post)
-    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+    <div class="sm:grid grid-cols-1 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
             <img src="{{ asset('images/' . $post->image_path) }}" alt="">
         </div>
