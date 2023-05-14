@@ -19,6 +19,7 @@ Based on [this](https://github.com/codewithdary/laravel-8-complete-blog/) templa
 ## Requirements
 •	PHP 7.3 or higher <br>
 •	Node 12.13.0 or higher <br>
+•   MariaDB 10.4.27 <br>
 
 ## Usage <br>
 Setting up your development environment on your local machine: <br>
