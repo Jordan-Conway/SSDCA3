@@ -45,12 +45,16 @@ class PostsController extends Controller
         $request->validate([
             'title' => 'required',
             'description' => 'required',
-            'image' => 'required|mimes:jpg,png,jpeg|max:5048'
+            'image' => 'mimes:jpg,png,jpeg|max:5048'
         ]);
 
-        $newImageName = uniqid() . '-' . $request->title . '.' . $request->image->extension();
+        $newImageName = null;
 
-        $request->image->move(public_path('images'), $newImageName);
+        if(!is_null($request->image)){
+            $newImageName = uniqid() . '-' . $request->title . '.' . $request->image->extension();
+            $request->image->move(public_path('images'), $newImageName);
+        }
+        
 
         Post::create([
             'title' => $request->input('title'),
