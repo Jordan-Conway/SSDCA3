@@ -2,15 +2,19 @@
 
 ## Movie Review Blog
 This is a blog specialising in movie reviews.
-It allows users to write blog posts, add movies and like other posts
+It allows users to write blog posts, add movies and like other posts.
 
-##Authors
-``` 
-Jordan Conway
+## Authors
+----
+- Jordan Conway
+- Martin Zachariasz
+- Emmanuel Francis
+
+Based on [this](https://github.com/codewithdary/laravel-8-complete-blog/) template by Code With Dary
+
+----
 
 
-Based on this template by Code With Dary available [here](https://github.com/codewithdary/laravel-8-complete-blog)
-```
 
 ## Requirements
 •	PHP 7.3 or higher <br>
