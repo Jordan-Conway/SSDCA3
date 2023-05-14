@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Movie;
-use Laravel\Ui\Presets\React;
 
 class MovieController extends Controller
 {
@@ -23,13 +22,16 @@ class MovieController extends Controller
         $request->validate([
             'title' => 'required',
             'runTime' => 'required|integer',
-            'releaseDate' => 'required|date'
+            'releaseDate' => 'required|date',
+            #taken from https://stackoverflow.com/a/42577289
+            'posterURL' => ['nullable', 'regex:/.(gif|jpe?g|tiff?|png|webp|bmp)$/i']
         ]);
 
         Movie::create([
             'title' => $request->input('title'),
             'runTime' => $request->input('runTime'),
-            'releaseDate' => $request->input('releaseDate')
+            'releaseDate' => $request->input('releaseDate'),
+            'posterURL' => $request->input('posterURL')
         ]);
 
         return redirect('/movie')

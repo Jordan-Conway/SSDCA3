@@ -19,6 +19,7 @@ class CreateMoviesTable extends Migration
             $table->integer('runTime');
             $table->date('releaseDate');
             $table->integer('rating')->default(0);
+            $table->string('posterURL')->default("");
             $table->timestamps();
         });
     }
