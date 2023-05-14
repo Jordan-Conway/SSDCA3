@@ -24,8 +24,11 @@
     <div class="sm:grid grid-cols-1 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
             <p class="font-bold text-5xl pb-4">{{ $movie->title }} </p><br>
-            Runtime: {{ $movie->runTime }} <br>
-            Rating: {{ $movie->rating }} <br>
+            @if (!in_array($movie->posterURL, array(null, "")))
+                <img src="{{ $movie->posterURL }}" alt ="poster" class=".img-fluid" style="max-width: 30%; max-height: 100%">
+            @endif
+            Runtime: {{ $movie->runTime }} minutes<br>
+            Rating: {{ $movie->rating }}/10<br>
             Release Date: {{ $movie->releaseDate }}          
         </div>
     </div>

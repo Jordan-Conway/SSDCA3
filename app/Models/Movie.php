@@ -13,6 +13,7 @@ class Movie extends Model
         'title',
         'runTime',
         'releaseDate',
-        'rating'
+        'rating',
+        'posterURL'
     ];
 }
