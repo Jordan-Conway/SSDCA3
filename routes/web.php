@@ -1,9 +1,12 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
 use App\Http\Controllers\MovieController;
+use App\Http\Controllers\PrivacyController;
+use App\Http\Controllers\TermsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +24,12 @@ Route::get('/', [PagesController::class, 'index']);
 Route::resource('/blog', PostsController::class);
 
 Route::resource('/movie', MovieController::class);
+
+Route::resource('/privacy', PrivacyController::class);
+
+Route::resource('/about', AboutController::class);
+
+Route::resource('/terms', TermsController::class);
 
 Auth::routes();
 
