@@ -64,11 +64,27 @@
         </div>
 
         <div>
-            <a href = "/movie">
-                <h3 class="text-l sm:font-bold text-gray-100">
-                    Latest posts
-                </h3>
-            </a>
+            <h3 class="text-l sm:font-bold text-gray-100">
+                Legal
+            </h3>
+
+            <ul class="py-4 sm:text-s pt-4 text-gray-400">
+                <li class="pb-1">
+                    <a href="/about">
+                        About Us
+                    </a>
+                </li>
+                <li class="pb-1">
+                    <a href="/terms">
+                        Terms of Service
+                    </a>
+                </li>
+                <li class="pb-1">
+                    <a href="/privacy">
+                        Privacy
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
     <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6">
