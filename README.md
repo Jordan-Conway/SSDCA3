@@ -1,10 +1,20 @@
-## Laravel 8 Complete Blog
+<p style="background-color:black">
 
-This repository is linked to [this youtube video](https://www.youtube.com/watch?v=HKJDLXsTr8A&t=4710s) where I show you how to create a complete blog in Laravel 8 using best practices.
+## Movie Review Blog
+This is a blog specialising in movie reviews.
+It allows users to write blog posts, add movies and like other posts.
 
-•	Author: Code With Dary <br>
-•	Twitter: [@codewithdary](https://twitter.com/codewithdary) <br>
-•	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
+## Authors
+----
+- Jordan Conway
+- Martin Zachariasz
+- Emmanuel Francis
+
+Based on [this](https://github.com/codewithdary/laravel-8-complete-blog/) template by Code With Dary
+
+----
+
+
 
 ## Requirements
 •	PHP 7.3 or higher <br>
@@ -13,9 +23,8 @@ This repository is linked to [this youtube video](https://www.youtube.com/watch?
 ## Usage <br>
 Setting up your development environment on your local machine: <br>
 ```
-git clone git@github.com:codewithdary/laravel-8-complete-blog.git
-cd laravel-8-complete-blog
-cp .env.example .env
+git clone git@github.com:Jordan-Conway/SSDCA3.git
+cd SSDCA3
 composer install
 php artisan key:generate
 php artisan cache:clear && php artisan config:clear
@@ -45,5 +54,8 @@ Migrate the tables
 php artisan migrate
 ```
 
-## Contributing
-Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
+Seed the tables (optional)
+```
+php artisan db:seed
+```
+</p>
