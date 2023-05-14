@@ -17,6 +17,11 @@
                     </a>
                 </li>
                 <li class="pb-1">
+                    <a href="/movie">
+                        Movies
+                    </a>
+                </li>
+                <li class="pb-1">
                     <a href="/login">
                         Login
                     </a>
@@ -60,28 +65,23 @@
 
         <div>
             <h3 class="text-l sm:font-bold text-gray-100">
-                Latest posts
+                Legal
             </h3>
 
             <ul class="py-4 sm:text-s pt-4 text-gray-400">
                 <li class="pb-1">
-                    <a href="/">
-                        Why we love tech
+                    <a href="/about">
+                        About Us
                     </a>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
-                        Why we love design
+                    <a href="/terms">
+                        Terms of Service
                     </a>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
-                        Why to use Laravel
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Why PHP is the best
+                    <a href="/privacy">
+                        Privacy
                     </a>
                 </li>
             </ul>
