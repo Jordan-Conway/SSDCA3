@@ -5,7 +5,7 @@
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
                 <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                    Do you want to become a developer?
+                    Looking for your next movie?
                 </h1>
                 <a 
                     href="/blog"
@@ -23,15 +23,15 @@
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to be a better web developer?
+                Struggling to find movies to watch?
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+                We're here to help.
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
+                From Hollywood blockbusters to cult favourites, check out our reviews
             </p>
 
             <a 
@@ -40,25 +40,6 @@
                 Find Out More
             </a>
         </div>
-    </div>
-
-    <div class="text-center p-15 bg-black text-white">
-        <h2 class="text-2xl pb-5 text-l"> 
-            I'm an expert in...
-        </h2>
-
-        <span class="font-extrabold block text-4xl py-1">
-            Ux Design
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Project Management
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Backend Development
-        </span>
     </div>
 
     <div class="text-center py-15">
@@ -71,7 +52,7 @@
         </h2>
 
         <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
+            See our most recent reviews
         </p>
     </div>
 
@@ -97,4 +78,5 @@
             <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
         </div>
     </div>
+    
 @endsection
